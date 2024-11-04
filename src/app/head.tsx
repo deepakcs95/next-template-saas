@@ -1,13 +1,11 @@
 export default function Head() {
   return (
     <>
-      <title>
-        Berkia Next.js - SaaS Starter Kit and Boilerplate for Next.js
-      </title>
+      <title>Berkia</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta
         name="description"
-        content="This SaaS Boilerplate and Starter Kit for Next.js is designed specifically for SaaS startups. It's a free resource complete with all the necessary integrations, pages, and components you require to build and launch a comprehensive SaaS website with robust features."
+        content="Unlock your SaaS startup potential with our Next.js SaaS Boilerplate and Starter Kit. This comprehensive, free resource comes packed with essential integrations, customizable pages, and versatile components to effortlessly create and launch a feature-rich SaaS website. Accelerate your development process and bring your vision to life with our all-in-one solution designed for aspiring entrepreneurs."
       />
       <link rel="icon" href="/images/favicon.ico" />
     </>
