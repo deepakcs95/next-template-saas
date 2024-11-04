@@ -61,9 +61,10 @@ const PricingBox = ({ product }: { product: Price }) => {
         <div className="w-full">
           <button
             onClick={handleSubscription}
-            className="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition duration-300 hover:bg-primary/90"
+            disabled
+            className="inline-block rounded-md bg-gray-600 px-7 py-3 text-center text-base font-medium text-white transition duration-300  "
           >
-            Purchase Now
+            coming soon
           </button>
         </div>
       </div>

@@ -14,7 +14,7 @@ const Pricing = () => {
           <SectionTitle
             subtitle="Pricing Table"
             title="Our Pricing Plan"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="Choose the plan that best fits your needs. Each option is designed to provide the tools and support you need to succeed."
             center
           />
         </div>
@@ -22,7 +22,7 @@ const Pricing = () => {
         <div className="-mx-4 flex flex-wrap justify-center">
           {pricingData.map((product, i) => (
             <PricingBox key={i} product={product} />
-          ))}     
+          ))}
         </div>
       </div>
     </section>

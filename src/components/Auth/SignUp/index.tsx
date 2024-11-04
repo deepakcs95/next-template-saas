@@ -71,61 +71,7 @@ const SignUp = () => {
 
               <SocialSignIn />
 
-              <span className="z-1 relative my-8 block text-center">
-                <span className="-z-1 absolute left-0 top-1/2 block h-px w-full bg-stroke dark:bg-dark-3"></span>
-                <span className="text-body-secondary relative z-10 inline-block bg-white px-3 text-base dark:bg-dark-2">
-                  OR
-                </span>
-              </span>
-
-              <SwitchOption
-                isPassword={isPassword}
-                setIsPassword={setIsPassword}
-              />
-
-              {isPassword ? (
-                <form onSubmit={handleSubmit}>
-                  <div className="mb-[22px]">
-                    <input
-                      type="text"
-                      placeholder="Name"
-                      name="name"
-                      required
-                      className="w-full rounded-md border border-stroke bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark-6 focus:border-primary focus-visible:shadow-none dark:border-dark-3 dark:text-white dark:focus:border-primary"
-                    />
-                  </div>
-                  <div className="mb-[22px]">
-                    <input
-                      type="email"
-                      placeholder="Email"
-                      name="email"
-                      required
-                      className="w-full rounded-md border border-stroke bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark-6 focus:border-primary focus-visible:shadow-none dark:border-dark-3 dark:text-white dark:focus:border-primary"
-                    />
-                  </div>
-                  <div className="mb-[22px]">
-                    <input
-                      type="password"
-                      placeholder="Password"
-                      name="password"
-                      required
-                      className="w-full rounded-md border border-stroke bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark-6 focus:border-primary focus-visible:shadow-none dark:border-dark-3 dark:text-white dark:focus:border-primary"
-                    />
-                  </div>
-                  <div className="mb-9">
-                    <button
-                      type="submit"
-                      className="flex w-full cursor-pointer items-center justify-center rounded-md border border-primary bg-primary px-5 py-3 text-base text-white transition duration-300 ease-in-out hover:bg-blue-dark"
-                    >
-                      Sign Up {loading && <Loader />}
-                    </button>
-                  </div>
-                </form>
-              ) : (
-                <MagicLink />
-              )}
-
-              <p className="text-body-secondary mb-4 text-base">
+              <p className="text-body-secondary mb-4 mt-4 text-base">
                 By creating an account you are agree with our{" "}
                 <a href="/#" className="text-primary hover:underline">
                   Privacy
