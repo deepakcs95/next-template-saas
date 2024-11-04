@@ -9,24 +9,24 @@ const CallToAction = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[570px] text-center">
                 <h2 className="mb-2.5 text-3xl font-bold text-white md:text-[38px] md:leading-[1.44]">
-                  <span>What Are You Looking For?</span>
+                  <span>Build Your SaaS Effortlessly</span>
                   <span className="text-3xl font-normal md:text-[40px]">
-                    {" "}
-                    Get Started Now{" "}
+                    Launch Your Next.js Project Today
                   </span>
                 </h2>
                 <p className="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-white">
-                  Discover a streamlined development experience with the Next.js
-                  Starter Kit. This kit offers essential tools and
-                  configurations to help you quickly build and deploy modern web
-                  applications with ease.
+                  Unlock a seamless development journey with our Next.js
+                  Template Kit, crafted specifically for SaaS platforms. Access
+                  pre-built components, optimized configurations, and all the
+                  tools you need to rapidly create and deploy modern, scalable
+                  applications.
                 </p>
-                <Link
+                {/* <Link
                   href="https://github.com/nextjsTemplates/play-nextjs"
                   className="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
                 >
                   Start using Berkia
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

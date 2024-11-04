@@ -12,19 +12,21 @@ const About = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-12 max-w-[540px] lg:mb-0">
                 <h2 className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
-                  Brilliant Toolkit to Build Next.js SaaS Websites.
+                  Empowering Developers to Build with Next.js
                 </h2>
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                  This toolkit is designed to equip developers with essential
-                  resources and best practices for building scalable SaaS
-                  platforms using Next.js. With a focus on ease of use and
-                  flexibility, our toolkit offers customizable components,
-                  optimized performance, and security guidelines to create
-                  reliable, high-quality applications.
+                  At Berkia, we are dedicated to simplifying the journey of
+                  creating robust SaaS applications. Our Next.js toolkit
+                  provides developers with a collection of high-quality,
+                  customizable templates and essential tools for building
+                  scalable, efficient platforms. With a focus on ease of use,
+                  performance optimization, and security, we’re here to support
+                  your vision from start to launch.
                   <br /> <br />
-                  Join interactive sessions and gain insights from industry
-                  experts to enhance your development workflow and accelerate
-                  project timelines.
+                  Join our community to learn from industry experts, participate
+                  in interactive sessions, and stay up-to-date with the latest
+                  in web development. Together, we aim to streamline your
+                  development process and bring your SaaS ideas to life.
                 </p>
 
                 <a

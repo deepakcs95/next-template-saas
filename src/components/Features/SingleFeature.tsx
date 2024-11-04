@@ -13,10 +13,10 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
         <h3 className="mb-3 text-xl font-bold text-dark dark:text-white">
           {title}
         </h3>
-        {/* <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-11">
-          // {paragraph}
+        <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-11">
+          {paragraph}
         </p>
-        <Link
+        {/* <Link
           href={btnLink}
           className="text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary"
         >

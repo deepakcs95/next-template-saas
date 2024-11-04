@@ -133,14 +133,14 @@ const Footer = () => {
                 Features
               </h4>
               <ul>
-                <li>
+                {/* <li>
                   <a
                     href="https://github.com/deepakcs95/next-template-saas/blob/master/README.md"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     How it works
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
                     href="/privacy-policy"
@@ -215,14 +215,14 @@ const Footer = () => {
                 Useful Links
               </h4>
               <ul>
-                <li>
+                {/* <li>
                   <a
                     href="/conact"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     FAQ
                   </a>
-                </li>
+                </li> */}
                 {/* <li>
                   <a
                     href="/#"

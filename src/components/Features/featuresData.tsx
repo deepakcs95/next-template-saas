@@ -17,8 +17,9 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Free and Open-Source",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    title: "Tailored to your requirements",
+    paragraph:
+      "Berkia.live provides fast Next.js templates that empower SaaS businesses to get started quickly without high development costs.",
     btn: "Learn More",
     btnLink: "/#",
   },
@@ -39,7 +40,8 @@ const featuresData: Feature[] = [
       </svg>
     ),
     title: "Modern Design",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    paragraph:
+      "Our templates feature modern, responsive design tailored for SaaS companies, ensuring an engaging user experience across all devices.",
     btn: "Learn More",
     btnLink: "/#",
   },
@@ -92,7 +94,8 @@ const featuresData: Feature[] = [
       </svg>
     ),
     title: "SaaS Starter Kit",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    paragraph:
+      "Jumpstart your SaaS project with a customizable Next.js template that includes all the essentials—from authentication to dashboard layouts.",
     btn: "Learn More",
     btnLink: "/#",
   },
@@ -125,7 +128,8 @@ const featuresData: Feature[] = [
       </svg>
     ),
     title: "All Essential Integrations",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    paragraph:
+      "Berkia.live templates come with built-in integrations for popular SaaS tools, making it easier to connect to analytics, payment providers, and more.",
     btn: "Learn More",
     btnLink: "/#",
   },
