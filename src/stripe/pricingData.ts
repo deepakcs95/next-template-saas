@@ -28,7 +28,7 @@ export const pricingData: Price[] = [
   },
   {
     id: "price_1NQk4eLtGdPVhGLeZsZDsCNz",
-    unit_amount: 250 * 100,
+    unit_amount: 2500 * 100,
     nickname: "Enterprise",
     offers: [
       "Unlimited Projects License",
