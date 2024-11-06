@@ -3,7 +3,7 @@ import { Price } from "@/types/price";
 export const pricingData: Price[] = [
   {
     id: "price_1NQk5TLtGdPVhGLecVfQ7mn0",
-    unit_amount: 50 * 100,
+    unit_amount: 400 * 100,
     nickname: "Starter",
     offers: [
       "Single Project License",
@@ -16,7 +16,7 @@ export const pricingData: Price[] = [
   },
   {
     id: "price_1NQk55LtGdPVhGLefU8AHqHr",
-    unit_amount: 200 * 100,
+    unit_amount: 1600 * 100,
     nickname: "Professional",
     offers: [
       "Up to 5 Projects)",
@@ -28,7 +28,7 @@ export const pricingData: Price[] = [
   },
   {
     id: "price_1NQk4eLtGdPVhGLeZsZDsCNz",
-    unit_amount: 300 * 100,
+    unit_amount: 250 * 100,
     nickname: "Enterprise",
     offers: [
       "Unlimited Projects License",
